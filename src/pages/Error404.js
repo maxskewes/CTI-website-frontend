@@ -1,5 +1,14 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Box, Card, CardContent, Container, Typography } from '@material-ui/core';
+=======
+import Box from '@material-ui/core/Box';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+import { TitleSection } from '../components';
+>>>>>>> 2d328d7c81e2f5053c78f9b01652399f301d3c47
 import ErrorOutlineRoundedIcon from '@material-ui/icons/ErrorOutlineRounded';
 
 const Error404 = () => {
