@@ -40,6 +40,27 @@ const useStyles = makeStyles(theme => ({
         color: theme.palette.secondary.dark,
       },
     },
+    '.card245': {
+      backgroundColor: theme.palette.background.primary,
+      alignItems: 'center',
+      padding: "80px",
+      margin: "80px",
+      textAlign: 'left',
+      '& h3': {
+        color: theme.palette.text.bright,
+        padding: "0",
+        margin: "10",
+      },
+      '& h5': {
+        color: theme.palette.text.secondary,
+        padding: "0 ",
+        margin: "0",
+      },
+      '& label': {
+        fontSize: '30px',
+        color: theme.palette.text.secondary,
+      },
+    },
     ".containerDefault": {
       backgroundColor: theme.palette.secondary.dark,
       minHeight: "500px",
